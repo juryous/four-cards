@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 1000px;
+    width: 1200px;
     max-width: 100%;
     margin: 50px auto;
 }
@@ -30,6 +30,7 @@ h3 {
 
 .hero-text {
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .hero-text p {
@@ -40,14 +41,21 @@ h3 {
 
 .flex {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle {
+    flex-direction: column;
 }
 
 .card {
     width: 350px;
     height: 250px;
+    margin: 10px;
     background-color: white;
     border-radius: 7px;
-    border: 1px solid black;
+    box-shadow: 5px 10px 10px rgba(179, 179, 179, 0.171);
 }
 
 .card p {
@@ -59,6 +67,20 @@ h3 {
     padding: 30px;
 }
 
-.middle {
-    flex-direction: column;
+.card img {
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+#cyan {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+#red {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+#orange {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+#blue {
+    border-top: 4px solid hsl(212, 86%, 64%);
 }
